@@ -19,8 +19,7 @@ int main()
     {
         puts("Pilih MODE : ");
         puts("[1] Player VS Players (Split Screen)");
-        puts("[2] Player VS AI(Random Numbers) (Split Screen)");
-        puts("[3] Player VS AI(Lebih Bagus *Sedikit* ) (Split Screen)");
+        puts("[2] Player VS AI(Lebih Bagus *Sedikit* ) (Split Screen)");
         scanf("%hd", &mode);
         if(mode == HUMAN || mode == RANDOMNUMBER || mode == AI){
             STATUS = SALAH;
@@ -41,9 +40,6 @@ int main()
             p2p(nama,mode);
             break;
         case 2:
-            system("cls");
-            break;
-        case 3:
             puts("P vs AI (Lebih Advance sedikit)");
             PlayerVSAI(nama,mode);
             break;

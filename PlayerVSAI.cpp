@@ -23,7 +23,7 @@ void PlayerVSAI(const char* nama,BOOLS mode){
             globalboard = board;
             printf("\n\n");
             for(int i = 0; i < 2; i++){
-                system("cls");
+                // system("cls");
                 draw_board();
                 printf("GILIRAN : \n X = %d \n Y = %d \n",user.giliranX,user.giliranY);
                 printf("\n\nAvaible Box : \n");
